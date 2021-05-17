@@ -1,5 +1,6 @@
 "use strict";
-
+//Here is the data we want to populate our table(s)
+// npx sequelize-cli db:seed:all //Put data in
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     await queryInterface.bulkInsert(
